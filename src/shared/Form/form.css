@@ -1,0 +1,51 @@
+
+.money {
+    text-align: center;
+}
+
+.moneyHeading {
+    font-size: 22px;
+    line-height: 3;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 22px;
+    color: #f4f4f4;
+    background-color: #333;
+}
+
+.button:hover {
+    opacity: .7;
+}
+
+.button:active {
+    opacity: 1;
+}
+
+.balance {
+    font-size: 18px;
+    line-height: 3
+}
+
+.balance span {
+    font-weight: 600;
+}
+
+.changeButton {
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-size: 22px;
+}
+
+.changeButton:disabled {
+    cursor: no-drop;
+}
